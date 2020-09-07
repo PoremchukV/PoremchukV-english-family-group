@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="../scripts/anime.min.js"></script>
+    <title>EnglishfamilyGroup - семейная школа английского языка.</title>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <meta name="keywords" content="Englishfamilygroup, englishclub, курсы английкого, Украина, подготовка к ЗНО." />
+    <meta name="description"
+        content="Курсы английского языка от школы Englishfamilygroup в Киеве. Разговорный, деловой и корпоративный английский, подготовка к ЗНО для взрослых и детей (индивидуально и в мини группах). Ваша цель свободно говорить на английском языке? Английский от профессионалов, дипломированных специалистов. Гарантированный результат с любого уровня." />
+</head>
+
+<body>
+    <!-- навигация -->
+    <div id="navigation">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-light text-center">
+                <button class="navbar-toggler navbar-toggler-right bg-light" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav navbar-nav text-primary" id="menu">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark text-uppercase" href="#top">главная </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#courses">курсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#teachers">репетиторы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#comment">отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#contacts">контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <!-- 
+            <nav class="navbar navbar-expand-md navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse d-flex justify-content-center navbar-collapse" id="navbarResponsive">
+                    <ul class="nav navbar-nav text-primary" id="menu">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark text-uppercase" href="#top">главная </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#courses">курсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#teachers">репетиторы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#comment">отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark text-uppercase" href="#contacts">контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> -->
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex h-100">
+        <div class="row align-self-center w-100">
+            <div class="col-12 mx-auto">
+                <div class="jumbotron">
+                    <div class="outer-container">
+                        <div class="image-container"
+                            style="background-image: url('https://pbs.twimg.com/media/EZgjN7SWkAA0Fj-.jpg');">
+                            <h2 class="section-title on-dark">
+                                <span class="paralax-title">
+                                    English Family Group
+                                </span>
+                            </h2>
+                        </div>
+                        <h2 class="section-title">
+                            <span class="paralax-title">
+                                English Family Group
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="button_courses text-center">
+                        <button type="button" class="btn btn-dark btn-lg mt-md-5 mr-1" data-toggle="modal"
+                            data-target="#exampleModalCentered">
+                            Пробное занятие
+                        </button>
+                        <button type="button" class="btn btn-dark btn-lg mt-md-5 ml-1">
+                            <a href="#courses" class="text-white font-weight-normal">Выбрать курс</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalCentered" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalCenteredLabel">Пробный
+                            урок</h5>
+                        <button type="button" class="close bg-light" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" id="frm_feedback" name="frm_feedback" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Имя" />
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="+380" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" type="textarea" id="comments" name="comments"
+                                    placeholder="Комментарий" maxlength="140" rows="3"></textarea>
+                            </div>
+                            <button type="submit" id="submit" name="submit"
+                                class="btn btn-dark btn-outline btn-block pull-right">Подтвердить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="jumbotron">
+        <div class="container-fluid h-100">
+            <div class="row  justify-content-center align-self-center">
+                <div class="col-md-12 col-sm-12">
+                    <div class="outer-container">
+                        <div class="image-container"
+                            style="background-image: url('https://pbs.twimg.com/media/EZgjN7SWkAA0Fj-.jpg');">
+                            <h2 class="section-title on-dark">
+                                <span class="paralax-title">
+                                    English Family Group
+                                </span>
+                            </h2>
+                        </div>
+                        <h2 class="section-title">
+                            <span class="paralax-title">
+                                English Family Group
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+                    <button type="button" class="btn btn-dark btn-lg mt-md-5 mr-1" data-toggle="modal"
+                        data-target="#exampleModalCentered">
+                        Пробное занятие
+                    </button>
+                    <button type="button" class="btn btn-dark btn-lg mt-md-5 ml-1">
+                        <a href="#courses" class="text-white font-weight-normal">Выбрать курс</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalCentered" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalCenteredLabel">Пробный
+                            урок</h5>
+                        <button type="button" class="close bg-light" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" id="frm_feedback" name="frm_feedback" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Имя" />
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="+380" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" type="textarea" id="comments" name="comments"
+                                    placeholder="Комментарий" maxlength="140" rows="3"></textarea>
+                            </div>
+                            <button type="submit" id="submit" name="submit"
+                                class="btn btn-dark btn-outline btn-block pull-right">Подтвердить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- статистика -->
+    <div id="statistics">
+        <div class="container-fluid bg-light mt-sm-2 mb-sm-2 p-md-5 p-sm-2">
+            <div class="card bg-light">
+                <h2 class="card-title text-center">О наших курсах</h2>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <h3 class="card-title">450+ студентов</h3>
+                            <div class="line"></div>
+                            <p class="card-text">
+                                Прошли наши курсы успешно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <h3 class="card-title">9 экспертов</h3>
+                            <div class="line"></div>
+                            <p class="card-text">
+                                Преподаватели, которые закрепят ваш успех
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <h3 class="card-title">13 курсов</h3>
+                            <div class="line"></div>
+                            <p class="card-text">
+                                Различные вариации для всех ваших целей
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="card-body">
+                            <h3 class="card-title">Методика</h3>
+                            <div class="line"></div>
+                            <p class="card-text">
+                                Наша методика подхода, быстрые результаты
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Выбрать курс -->
+    <div id='courses'>
+        <div class="container-fluid mt-md-5 mb-md-5 mt-sm-2 mb-sm-2 p-md-5 p-sm-2">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-6">
+                    <div class="card text-center border-0">
+                        <div class="card-body">
+                            <img src="../images/courses_bg1.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6  col-sm-6">
+                    <div class="card text-center border-0">
+                        <div class="card-body">
+                            <h2 class="card-title">Super интенсив</h2>
+                            <h6 class="card-subtitle mb-2 text-muted">4000 грн/курс</h6>
+                            <p class="card-text">
+                                <br>- 2 недели<br>
+                                - 5 раз в неделю по 60-90 минут<br>
+                                - онлайн или оффлайн<br>
+                                - утренние и вечерние занятия<br>
+                                - до 5 человек группа<br><br><br>
+
+                                Узнай подробности и зарегистрируйся на пробный урок!
+                            </p>
+                            <button type="button" class="btn btn-outline btn-dark btn-lg mt-md-5" data-toggle="modal"
+                                data-target="#exampleModalCentered">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid bg-light mt-md-5 mb-md-5  mt-sm-2 mb-sm-2 p-md-5 p-sm-2">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-6">
+                    <div class="card text-center border-0 bg-light">
+                        <div class="card-body">
+                            <h2 class="card-title">Интенсив</h2>
+                            <h6 class="card-subtitle mb-2 text-muted">3500 грн/курс</h6>
+                            <p class="card-text">
+                                <br>- 2 месяца, 24 занятия<br>
+                                - 3 раза в неделю по 60 минут<br>
+                                - утренние и вечерние занятия<br>
+                                - до 7 человек группа<br><br><br>
+                                Узнай подробности и зарегистрируйся на пробный урок!
+                            </p>
+                            <button type="button" class="btn btn-outline btn-dark btn-lg mt-md-5" data-toggle="modal"
+                                data-target="#exampleModalCentered">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="card text-center bg-light border-0">
+                        <div class="card-body">
+                            <img src="../images/courses_bg2.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid mt-md-5 mb-md-5  mt-sm-2 mb-sm-2 p-md-5 p-sm-2">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-6">
+                    <div class="card text-center border-0">
+                        <div class="card-body">
+                            <img src="../images/courses_bg3.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="card text-center border-0">
+                        <div class="card-body">
+                            <h2 class="card-title">LVL UP</h2>
+                            <h6 class="card-subtitle mb-2 text-muted">3000 грн/курс</h6>
+                            <p class="card-text">
+                                <br>- от 2 до 5 месяцев<br>
+                                - 6 уровней от Elementary до Advanced<br>
+                                - 3 раза в неделю по 90 минут<br>
+                                - утренние и вечерние занятия<br>
+                                - до 7 человек группа<br><br><br>
+
+                                Узнай подробности и зарегистрируйся на пробный урок!
+                            </p>
+                            <button type="button" class="btn btn-outline btn-dark btn-lg mt-md-5" data-toggle="modal"
+                                data-target="#exampleModalCentered">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- преимущества -->
+    <div class="container__advantages">
+        <div class="card text-center border-0 bg-light mt-md-5 mb-md-5 mt-sm-2 mb-sm-2 p-md-5 p-sm-2">
+            <h2 class="card-title text-center">Почему мы?</h2>
+            <div class="container">
+                <!-- <h1 class="card-title text-center">Почему мы</h1> -->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img class="card-img-top" src="../images/about_us1.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Семейное дело</h4>
+                            <p class="card-text">
+                                Семья сертифицированных филологов, наследственных преподавателей
+                                иностранных
+                                языков
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img class="card-img-top" src="../images/about_us2.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">10 лет опыта</h4>
+                            <p class="card-text">Более 10 лет преподаем по всей Украине, России и
+                                Америке </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img class="card-img-top" src="../images/about_us3.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Гибкие цены</h4>
+                            <p class="card-text">У нас вы найдете курс или преподавателя себе по вкусу
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <img class="card-img-top" src="../images/about_us4.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Успешные студенты</h4>
+                            <p class="card-text">Сертификаты, успешная сдача различных
+                                локальных и международных экзаменом на высоком уровне </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- репетиторы -->
+    <div id='teachers'>
+        <div class="container-fluid border-0 mt-md-5 mb-md-5 mt-sm-3 mb-sm-3">
+            <h2 class="card-title text-center">Репетиторы</h2>
+            <div class="row row-flex text-center">
+                <div class="col-lg-4 col-md-6 col-xs-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="../images/Michael.JPG" alt="Card image">
+                            <h4 class="card-title text-center mt-md-2">Михаил Кузько</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Основатель и директор
+                                English
+                                Family
+                                Group
+                            </h6>
+                            <p class="card-text">- Магистр филологии английского и немецкого языков.<br> -
+                                Основатель
+                                разговорного клуба совместно с программой американского посольства "Window
+                                on
+                                America".<br>
+                                - Более 6
+                                лет опыта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="../images/Eduard.JPG" alt="Card image">
+                            <h4 class="card-title text-center mt-md-2">Эдуард Кузько</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Вице-президент English
+                                Family
+                                Group
+                            </h6>
+                            <p class="card-text">- Филолог английского и немецкого языков. <br>
+                                - Ведущий разговорного клуба
+                                "Window on America".<br>
+                                - 4 года опыта, создание онлайн курсов.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="../images/Veronika.JPG" alt="Card image">
+                            <h4 class="card-title text-center mt-md-2">Вероника Кузько</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Специалист в подготовке к
+                                экзаменам
+                            </h6>
+                            <p class="card-text">- Магистр английского и французского языков.<br> -
+                                Сертификат
+                                TOEFL.<br>
+                                - Готовит преподавателей/репетиторов.<br> - Более 5 лет опыта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="../images/Karina.JPG" alt="Card image">
+                            <h4 class="card-title text-center mt-md-2">Карина Кузько</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Специалист по обучению детей
+                            </h6>
+                            <p class="card-text">- Выпускник факультета английской филологии КНЛУ.<br> - 3
+                                года опыт
+                                преподавания для детей и взрослых.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="../images/Valentine.JPG" alt="Card image">
+                            <h4 class="card-title text-center mt-md-2">Валентин Кузько</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Специалист в переводах на
+                                больших
+                                мероприятиях
+                            </h6>
+                            <p class="card-text">- 8 лет опыт обучающих и переводах
+                                преподавания.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="../images/Nataliya.JPG" alt="Card image">
+                            <h4 class="card-title text-center mt-md-2">Наталия Кузько</h4>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Специалист по обучению детей и
+                                взрослых
+                            </h6>
+                            <p class="card-text">- Филолог английского языка.<br> - более 20 лет опыта
+                                преподавания
+                                для
+                                детей и
+                                взрослых.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- как это работате -->
+    <div id='table'>
+        <div class="container-fluid bg-light mt-md-5 mb-md-5 mt-sm-3 mb-sm-3 p-md-5 p-sm-2">
+            <h2 class="card-title text-center pb-2">Как это работате? </h2>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="table__item">
+                        <div class="table-width table-width_8 table__mainblock">
+                            <div class="table__col">
+                                <div class="table__linewrapper">
+                                    <div class="table__line" style="width: 2px;"></div>
+                                    <div class="table__circle" style=" border-width: 2px; ">
+                                        <div class="table__number table-name table-name_md">1</div>
+                                    </div>
+                                </div>
+                                <div class="table__block">
+                                    <d class="table__title table-name table-name_lg" field="li_title__1479137044697">
+                                        Пробное
+                                        занятие
+                                    </d>
+                                    <div class="table__descr table-text table-text_xs" field="li_descr__1479137044697">
+                                        Мы
+                                        подбираем
+                                        лучший курс, который точно приведет вас к цели, рассказываем все детали и
+                                        предоставляем
+                                        вам
+                                        выбор.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__item">
+                        <div class="table-width table-width_8 table__mainblock">
+                            <div class="table__col table__flipped">
+                                <div class="table__linewrapper">
+                                    <div class="table__line" style="width: 2px;"></div>
+                                    <div class="table__circle" style=" border-width: 2px; ">
+                                        <div class="table__number table-name table-name_md">2</div>
+                                    </div>
+                                </div>
+                                <div class="table__block-flipped">
+                                    <div class="table__title table-name table-name_lg" field="li_title__1479137356907">
+                                        Регистрация
+                                    </div>
+                                    <div class="table__descr table-text table-text_xs" field="li_descr__1479137356907">
+                                        После
+                                        выбора
+                                        нужного курса, идет предварительная базовая предоплата, которая закрепляет
+                                        за
+                                        вами
+                                        цену
+                                        и
+                                        дату
+                                        проведения курса и так же дает возможность протестировать первое занятие
+                                        курса
+                                        не
+                                        оплачивая
+                                        основную сумму.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="table__item">
+                        <div class="table-width table-width_8 table__mainblock">
+                            <div class="table__col">
+                                <div class="table__linewrapper">
+                                    <div class="table__line" style="width: 2px;"></div>
+                                    <div class="table__circle" style=" border-width: 2px; ">
+                                        <div class="table__number table-name table-name_md">3</div>
+                                    </div>
+                                </div>
+                                <div class="table__block">
+                                    <div class="table__title table-name table-name_lg" field="li_title__1479137790652">
+                                        Оплата
+                                    </div>
+                                    <div class="table__descr table-text table-text_xs" field="li_descr__1479137790652">
+                                        Как
+                                        только
+                                        вас
+                                        все устроило, вы оплачиваете сумму курса по удобной для вас системе: полная
+                                        предоплата
+                                        со
+                                        скидкой, оплата помесячно или в несколько этапов, рассрочка.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__item">
+                        <div class="table-width table-width_8 table__mainblock">
+                            <div class="table__col table__flipped">
+                                <div class="table__linewrapper">
+                                    <div class="table__line" style="width: 2px;"></div>
+                                    <div class="table__circle" style=" border-width: 2px; ">
+                                        <div class="table__number table-name table-name_md">4</div>
+                                    </div>
+                                </div>
+                                <div class="table__block-flipped">
+                                    <div class="table__title table-name table-name_lg" field="li_title__1479137793455">
+                                        Сертификат
+                                    </div>
+                                    <div class="table__descr table-text table-text_xs" field="li_descr__1479137793455">
+                                        По
+                                        окончанию
+                                        курса, вы получаете сертификат о завершении с печатью и подписями от нашей
+                                        школы
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- комментарии-->
+    <div class="container__comment mt-md-5 mb-md-5">
+        <div class="container-fluid">
+            <h2 class="card-title text-center" id="comment">Отзывы</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="card text-center p-5">
+                            <img class="card-img img-fluid rounded mx-auto d-block rounded-circle"
+                                src="../images/comment1.JPG" alt="Circle image">
+                            <h4 class="card-title p-2">Сергей Тимощук</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">CEO</h6>
+                            <div class="card-body"> Прошел двухмесячный разговорный курс. Доволен
+                                результатом,
+                                методикой
+                                и
+                                подходом преподавателей.<br>Очень рекомендую!
+                            </div>
+                        </div>
+
+                        <!-- <img class="d-block w-100"
+                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22900%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1724c698767%20text%20%7B%20fill%3A%23FFFFFF%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A45pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1724c698767%22%3E%3Crect%20width%3D%22900%22%20height%3D%22400%22%20fill%3D%22%233a5a97%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22333.203125%22%20y%3D%22220.1%22%3E900x400%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                        data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true"
+                        style="width: 900px; height: 400px;"> -->
+                    </div>
+                    <div class="carousel-item bg-light">
+                        <div class="card text-center p-5">
+                            <img class="card-img img-fluid rounded mx-auto d-block rounded-circle"
+                                src="../images/comment2.JPG" alt="Circle image">
+                            <h4 class="card-title p-2">Юлиана Лебединская</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Дизайнер</h6>
+                            <div class="card-body"> За время обучения я сильно подняла навык общения по
+                                английски!<br>
+                                Рада,
+                                что могу говорить и понимать иностранцев так как часто путешествую,
+                                очень
+                                довольна
+                                результатом и преподавателем.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item bg-light">
+                        <div class="card text-center p-5">
+                            <img class="card-img img-fluid rounded mx-auto d-block rounded-circle"
+                                src="../images/comment3.JPG" alt="Circle image">
+                            <h4 class="card-title p-2">Ильдар Хан</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Проджект менеджер</h6>
+                            <div class="card-body"> Имею неплохой уровень английского, но не хватило
+                                практики
+                                реального
+                                общения, взял индивидуального преподавателя и довольно быстро поднял
+                                уровень и
+                                избавился
+                                от барьеров в общении.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark">
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-dark"></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- контакты-->
+    <div class="container-contact mt-md-5" id="contacts">
+        <div class="card text-center border-0 bg-light">
+            <div class="container">
+                <h2 class="card-title text-center mt-md-5">Контакты</h2>
+
+                <div class="row  pt-md-5">
+                    <div class="col-md-4">
+                        <img class="card-img-top" src="../images/contact1.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Контакты</h4>
+                            <p class="card-text">
+                                +38 (097) 533 34 07<br>
+                                mrwinner7@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="card-img-top" src="../images/contact2.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Адрес</h4>
+                            <p class="card-text">Ивана Франка 17В<br>
+                                Киев</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="card-img-top" src="../images/contact3.svg" alt="Card image cap"
+                            style="width: 100px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Дополнительно</h4>
+                            <a href="https://www.instagram.com/englishfamilygroup/"> <img
+                                    class="card-img-top text-center" src="../images/icon_instagram.png"
+                                    alt="icon Instagram" style="width: 32px;"></a>
+                            <a href="https://www.facebook.com/EnglishFamilygroup/"> <img
+                                    class="card-img-top text-center" src="../images/icon_facebook.png"
+                                    alt="icon Facebook" style="width: 32px;">
+                            </a>
+                            <a href="https://www.youtube.com/user/MrWinnerPro"> <img class="card-img-top text-center"
+                                    src="../images/icon_youtube.png" alt="icon YouTube" style="width: 32px;"></a>
+                            <a href="skype:grandargentina1?userinfo"> <img class="card-img-top text-center"
+                                    src="../images/icon_skype.png" alt="icon YouTube" style="width: 32px;"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- подвал -->
+    <div class="container__footer mt-md-3 mb-md-3">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between text-center align-items-stretch">
+                <div class="p-2">&copy; English Family Group</div>
+                <div class="p-2">
+                    <a class="nav-link text-dark font-weight-bold text-center" href="#top">Вверх &uarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- обратный звонок-->
+    <div class="container__callback">
+        <div class="row">
+            <div class="col-md-12">
+                <input type="image" data-toggle="modal" data-target="#exampleModalCentered"
+                    src="../images/iconfinder_64-viber_1181201.png" style="width: 80px;">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../scripts/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/js.cookie.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+
+
+
+</body>
+
+</html>
